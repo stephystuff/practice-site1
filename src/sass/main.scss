@@ -1,4 +1,14 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700');
 
+html{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+section{
+  margin-top: 100px;
+}
 @import "header";
+@import "services";
+@import "about";
