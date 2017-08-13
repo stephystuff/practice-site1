@@ -1,0 +1,52 @@
+section.price{
+  width: 100%;
+  padding-top: 100px;
+  margin-top: 0;
+  font-family: "Maven Pro",sans-serif;
+  color: #969696;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #f2f9ff;
+  h3{
+    color: #515151;
+    font-weight: bold;
+    margin: 0;
+  }
+  article{
+    margin: 50px 5px 0 5px;
+    float: left;
+    border: 1px solid #969696;
+    width: 350px;
+    height: 400px;
+    box-sizing: content-box;
+    padding: 10px 25px 10px 25px;
+    background-color: #ffffff;
+    span{
+      color: #f2ac41;
+      // font-weight: bold;
+      font-size: 4em;
+    }
+    .border-top{
+      padding: 10px 0 10px 0;
+      border-top: 1px solid #d5eafb;
+    }
+    button{
+      margin-top: 15px;
+      padding: 5px 25px 5px 25px;
+      border: none;
+      background-color: #f2ac41;
+      color: #ffffff;
+    }
+  }
+  article:hover{
+    margin: 0 -5px 0 -5px;
+    background-color: #5e99c5;
+    color: #ffffff;
+    height: 500px;
+    border: none;
+    span{
+      color: #ffffff;
+    }
+  }
+}
